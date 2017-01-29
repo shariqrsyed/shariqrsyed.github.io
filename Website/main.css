@@ -1,0 +1,48 @@
+body{
+    background-image: url(background.jpeg);
+    background-size: 100% 100%;
+}
+
+.intro, .social{
+    opacity: 1;
+    transition: 1s opacity;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.intro.fade-out{
+    opacity: 0;
+    transition: none;
+}
+
+.social {
+    top: 55%;
+    padding: 5px;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+#github, 
+#linkedin,
+#resume{
+    filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+}
+
+#github:hover,
+#linkedin:hover,
+#resume:hover{
+    filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+}
+
