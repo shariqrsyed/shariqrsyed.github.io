@@ -1,9 +1,10 @@
-body{
+body {
     background-image: url(background.jpeg);
     background-size: 100% 100%;
 }
 
-.intro, .social{
+.intro,
+.social {
     text-align: center;
     color: slategrey;
     position: absolute;
@@ -19,22 +20,20 @@ body{
     border-spacing: 20px;
 }
 
-p{
+p {
     color: slategrey;
 }
 
-#github, 
+#github,
 #linkedin,
-#resume{
+#resume {
     filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-o-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
 }
 
-tr:hover{
+tr:hover {
     text-decoration: none;
 }
-
-
