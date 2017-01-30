@@ -4,19 +4,12 @@ body{
 }
 
 .intro, .social{
-    opacity: 1;
-    transition: 1s opacity;
     text-align: center;
-    color: aliceblue;
+    color: slategrey;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-}
-
-.intro.fade-out{
-    opacity: 0;
-    transition: none;
 }
 
 .social {
@@ -26,23 +19,22 @@ body{
     border-spacing: 20px;
 }
 
+p{
+    color: slategrey;
+}
+
 #github, 
 #linkedin,
 #resume{
-    filter: grayscale(1);
-	-webkit-filter: grayscale(1);
-	-moz-filter: grayscale(1);
-	-o-filter: grayscale(1);
-	-ms-filter: grayscale(1);
+    filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
 }
 
-#github:hover,
-#linkedin:hover,
-#resume:hover{
-    filter: grayscale(0);
-	-webkit-filter: grayscale(0);
-	-moz-filter: grayscale(0);
-	-o-filter: grayscale(0);
-	-ms-filter: grayscale(0);
+tr:hover{
+    text-decoration: none;
 }
+
 
